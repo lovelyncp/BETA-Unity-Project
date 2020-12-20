@@ -14,8 +14,10 @@ public class DestroyOutOfBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // when game object reaches less than bottom bound
         if (transform.position.x < -bottomBound)
         {
+            // destroy game object 
             Destroy(gameObject);
         }
     }

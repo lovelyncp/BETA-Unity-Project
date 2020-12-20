@@ -14,6 +14,7 @@ public class MoveBackground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // move background downwards
         transform.Translate(Vector3.left * Time.deltaTime * speed);
     }
 }

@@ -16,8 +16,10 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // player controller when game over is false
         if(playerControllerScript.gameover == false)
         {
+            // move player
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
     }

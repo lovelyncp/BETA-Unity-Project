@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 5.0f;
     public float turnSpeed = 20.0f;
     public float xRange = 20.0f;
+    public ParticleSystem explosionParticle;
     private float horizontalInput;
     private float forwardInput;
     public bool gameover = false;
@@ -35,6 +36,14 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
-        
+    }
+
+    private void onCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Game Over");
+            explosionParticle.Play();
+        }
     }
 }

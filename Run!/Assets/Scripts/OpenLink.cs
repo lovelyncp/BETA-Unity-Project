@@ -6,6 +6,6 @@ public class OpenLink : MonoBehaviour
 {
     public void OpenPage()
     {
-        Application.OpenURL("https://github.com/lovelyncp/Unity-Project");
+        Application.OpenURL("https://github.com/lovelyncp/BETA-Unity-Project");
     }
 }
