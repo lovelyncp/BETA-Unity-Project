@@ -4,7 +4,7 @@
 
 Unity game project for interactive multimedia
 
-Assets included in this project
+__Assets included in this project__
   * Course Library from Create with Code Unity
   * Meshtint Free City Lite Pack Mega Toon Series
 
