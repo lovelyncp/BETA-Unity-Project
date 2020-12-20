@@ -4,6 +4,10 @@
 
 Unity game project for interactive multimedia
 
+Assets included in this project
+  * Course Library from Create with Code Unity
+  * Meshtint Free City Lite Pack Mega Toon Series
+
 __Run! Beta includes:__
   - Completed scene
   - Scene that repeats itself
